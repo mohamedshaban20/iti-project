@@ -22,7 +22,7 @@
         }
     ?>
         <h2>Thank You, <?php echo ($gender === "male") ? "Mr." : "Miss"; ?> <?php echo $first_name . " " . $last_name; ?></h2>
-        <p>Please review your information:</p>
+        <p>Please review your information: </p>
         <p><strong>Name:</strong> <?php echo $first_name . " " . $last_name; ?></p>
         <p><strong>Address:</strong> <?php echo $address; ?></p>
         <p><strong>Your skills:</strong> <?php echo $skills; ?></p>
@@ -33,5 +33,6 @@
         echo "<h2>Form submission failed.</h2>";
     }
     ?>
+
 </body>
 </html>
